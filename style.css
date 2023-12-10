@@ -1,0 +1,45 @@
+body {
+    height: 100vh;
+    background-color: rgb(22, 11, 11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+.p {
+    width: 40em;
+    font: 400 1em/1.5 "Neuton";
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    border: 4px double #0c090940;
+    border-width: 4px 0;
+    padding: 1.5em 0em;
+}
+
+p span {
+    font: 700 4em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding: 0.25em 0 0.325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px rgba(43, 30, 30, 0.5);
+    background: url(images/36452d9edf32d48fc9468154ffdefd37.jpg)repeat-y;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: anim 1s linear infinite;
+}
+
+
+@-webkit-keyframes anim {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
