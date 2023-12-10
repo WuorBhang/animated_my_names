@@ -27,10 +27,10 @@ p span {
     display: block;
     margin: 0 auto;
     text-shadow: 0 0 80px rgba(43, 30, 30, 0.5);
-    background: url(images/36452d9edf32d48fc9468154ffdefd37.jpg)repeat-y;
+    background: url(images/Screenshot\ 2023-12-10\ 174920.png) repeat-y;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: anim 1s linear infinite;
+    animation: anim 2s linear infinite;
 }
 
 
